@@ -15,7 +15,7 @@ the `.repo/local_manifests` directory:
 Example lineage-23.2
 
 ```bash
-git clone https://github.com/marcmyworld/chenfeng_manifest.git -b lineage-23.2 --depth=1 .repo/local_manifests
+git clone https://gitlab.com/xiaomi-chenfeng/local_manifests.git -b lineage-23.2 --depth=1 .repo/local_manifests
 ```
 
 <br/>
