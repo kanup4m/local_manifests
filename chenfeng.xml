@@ -9,6 +9,12 @@
 					 revision="lineage-23.2"
 					 path="device/xiaomi/chenfeng" />
 
+	<!-- miuicamera tree -->
+    <project name="xiaomi-chenfeng/android_device_xiaomi_chenfeng-miuicamera"
+					 remote="gitlb"
+					 revision="lineage-23.2"
+					 path="device/xiaomi/chenfeng-miuicamera" />
+
     <!-- kernel tree -->
     <project name="xiaomi-chenfeng/android_device_xiaomi_chenfeng-kernel"
 					 remote="gitlb"
@@ -21,9 +27,16 @@
 					 revision="lineage-23.2"
 					 path="hardware/xiaomi" />
 
+	<!-- proprietary section below -->
     <!-- vendor blobs -->
 	<project name="xiaomi-chenfeng/vendor_xiaomi_chenfeng"
 					 remote="gitlb"
 					 revision="lineage-23.2"
 					 path="vendor/xiaomi/chenfeng" />
+
+	<!-- miuicamera blobs -->
+	<project name="xiaomi-chenfeng/vendor_xiaomi_chenfeng-miuicamera"
+					 remote="gitlb"
+					 revision="lineage-23.2"
+					 path="vendor/xiaomi/chenfeng-miuicamera" />
 </manifest>
