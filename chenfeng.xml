@@ -39,4 +39,10 @@
 					 remote="gitlb"
 					 revision="lineage-23.2"
 					 path="vendor/xiaomi/chenfeng-miuicamera" />
+
+	<!-- dolby atmos -->
+	<project name="xiaomi-chenfeng/hardware_dolby"
+					 remote="gitlb"
+					 revision="16"
+					 path="vendor/xiaomi/chenfeng-miuicamera" />
 </manifest>
