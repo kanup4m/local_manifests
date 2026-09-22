@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- 1. Tell repo to stop looking for the stock DolbyAtmos repo -->
+  <remove-project name="platform/packages/apps/DolbyAtmos" />
+
+  <!-- 2. Define your custom package mapping -->
+</manifest>
