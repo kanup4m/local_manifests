@@ -18,10 +18,18 @@ Example lineage-23.2
 git clone https://gitlab.com/xiaomi-chenfeng/local_manifests.git -b lineage-23.2 --depth=1 .repo/local_manifests
 ```
 
+Example RisingOS (sixteen, Beyonder) — branch rising-16 of your fork:
+
+```bash
+git clone https://github.com/kanup4m/local_manifests.git -b rising-16 --depth=1 .repo/local_manifests
+```
+
 <br/>
 After cloning the manifest, synchronize the source tree with the repo tool:
 
 ```bash
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$(nproc --all)
 
+# chenfeng extras (GitLab deps on lineage-23.2 / dolby 16 + source patches):
+bash device/xiaomi/chenfeng/vendorsetup.sh
 ```

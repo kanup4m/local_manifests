@@ -2,11 +2,12 @@
 <manifest>
 	<remote name="gh" fetch="https://github.com" />
 	<remote name="gitlb" fetch="https://gitlab.com" />
+	<remote name="gh-kanup4m" fetch="https://github.com/kanup4m" />
 
-    <!-- device tree -->
-    <project name="xiaomi-chenfeng/android_device_xiaomi_chenfeng"
-					 remote="gitlb"
-					 revision="lineage-23.2"
+    <!-- device tree (RisingOS sixteen, Beyonder) -->
+    <project name="android_device_xiaomi_chenfeng"
+					 remote="gh-kanup4m"
+					 revision="sixteen"
 					 path="device/xiaomi/chenfeng" />
 
 	<!-- miuicamera tree -->
