@@ -4,10 +4,10 @@
 	<remote name="gitlb" fetch="https://gitlab.com" />
 	<remote name="gh-kanup4m" fetch="https://github.com/kanup4m" />
 
-    <!-- device tree (RisingOS sixteen, Beyonder) -->
+    <!-- device tree (RisingOS 16 QPR2, Beyonder) -->
     <project name="android_device_xiaomi_chenfeng"
 					 remote="gh-kanup4m"
-					 revision="sixteen"
+					 revision="rising-16-qpr2"
 					 path="device/xiaomi/chenfeng" />
 
 	<!-- miuicamera tree -->
