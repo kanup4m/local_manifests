@@ -46,4 +46,15 @@
 					 remote="gitlb"
 					 revision="16"
 					 path="hardware/dolby" />
+
+	<!-- GMS blobs: Rising sixteen-qpr2 pins vendor_gms to a dead Forgejo
+	     host (v15.next.forgejo.org 404). Override with Evolution-X bka
+	     (Baklava/Android 16) mirror — same branch Rising's own sixteen
+	     branch family tracks, provides vendor/gms/gms_pico.mk -->
+	<remove-project name="vendor_gms" />
+	<project name="Evolution-X/vendor_gms"
+					 remote="gh"
+					 revision="bka"
+					 path="vendor/gms"
+					 clone-depth="1" />
 </manifest>
